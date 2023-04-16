@@ -1,0 +1,221 @@
+:root {
+  --primery-text-color: #434455;
+  --title-text-color: #2e2f42;
+  --blue-accent-color: #404bbf;
+  --white-text-color: #ffffff;
+  --cloud-text-color: #f4f4fd;
+  --blue-nomal-color: #4d5ae5;
+  --primery-bg-color: #e5e5e5;
+  --header-bg-color: #ffffff;
+  --cloud-bg-color: #f4f4fd;
+}
+/* Style color  */
+/* /* основной цвет #434455  */
+/* вторичный цвет #2E2F42  */
+/* бекграунд #E5E5E5;  */
+/* normal blue #4D5AE5  */
+/* accent blue #404BBF  */
+/* вторичный бекграунд #F4F4FD  */
+/* белый #FFFFFF  */
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: var(--header-bg-color);
+  color: var(--primery-text-color);
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+.list {
+  list-style: none;
+}
+.link {
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+ul,
+ol {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+img {
+  display: block;
+}
+
+/* Logotype  */
+.logotype {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--blue-nomal-color);
+}
+.accent {
+  font-family: 'Raleway';
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--title-text-color);
+}
+/* Site-novigation  */
+.nav-item {
+  color: var(--title-text-color);
+  font-weight: 500;
+}
+.site-nav .link:hover,
+.site-nav .link:focus,
+.button.secondary:active {
+  color: var(--blue-accent-color);
+}
+
+.contact-nav .link {
+  color: var(--primery-text-color);
+  font-size: 16px;
+  line-height: 1.5;
+}
+.contact-nav .link:hover,
+.contact-nav .link:focus {
+  color: var(--blue-accent-color);
+}
+/* Address   */
+.contacts {
+  font-style: normal;
+}
+/* Hero */
+.hero {
+  background-color: var(--title-text-color);
+}
+.hero-title {
+  color: var(--white-text-color);
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
+}
+/* Section 1 */
+.section {
+}
+.title {
+  color: var(--title-text-color);
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+
+/* Section 2  */
+.second-title {
+  color: var(--title-text-color);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-align: center;
+  text-transform: capitalize;
+}
+/* Section 3  */
+.employers-list .title {
+  color: var(--title-text-color);
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  text-align: center;
+}
+.profession {
+  color: var(--primery-text-color);
+  text-align: center;
+}
+.section.team {
+  background-color: var(--cloud-text-color);
+}
+.item {
+  background-color: #ffffff;
+}
+/* Footer  */
+.footer {
+  background-color: var(--title-text-color);
+}
+.footer .logotype {
+  color: var(--blue-nomal-color);
+  font-family: 'Raleway', sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+.footer-accent {
+  color: var(--cloud-text-color);
+}
+.footer .text {
+  color: var(--cloud-text-color);
+}
+/* Section Portfolio  */
+.service-list .title {
+  color: var(--title-text-color);
+}
+.portfolio-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--title-text-color);
+}
+/* Button  */
+.button {
+  color: var(--title-text-color);
+  background-color: var(--primery-bg-color);
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  cursor: pointer;
+}
+.button.primery {
+  color: var(--white-text-color);
+  background-color: var(--blue-nomal-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+}
+.button.primery:hover,
+.button.primery:focus {
+  background-color: var(--blue-accent-color);
+}
+.button.secondary {
+  color: var(--blue-nomal-color);
+  background-color: var(--cloud-bg-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  align-items: center;
+  letter-spacing: 0.04em;
+  cursor: pointer;
+  font-family: inherit;
+}
+.button.secondary:hover,
+.button.secondary:focus {
+  background-color: var(--blue-accent-color);
+  color: var(--white-text-color);
+}
+
+.text {
+  color: var(--primery-text-color);
+}
