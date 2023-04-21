@@ -240,7 +240,7 @@ img {
   padding: 100px 0;
 }
 .footer .logotype {
-  display: inline;
+  display: inline-block;
   color: var(--blue-nomal-color);
   font-family: 'Raleway', sans-serif;
   font-weight: 800;
