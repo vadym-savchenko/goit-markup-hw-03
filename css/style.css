@@ -5,15 +5,14 @@
   --white-text-color: #ffffff;
   --cloud-text-color: #f4f4fd;
   --blue-nomal-color: #4d5ae5;
-  --primery-bg-color: #e5e5e5;
-  --header-bg-color: #ffffff;
+  --white-bg-color: #ffffff;
   --cloud-bg-color: #f4f4fd;
   --border-btn-color: #e7e9fc;
+  --navy-blue-bg-color: #2e2f42;
 }
 /* Style color  */
 /* /* основной цвет #434455  */
 /* вторичный цвет #2E2F42  */
-/* бекграунд #E5E5E5;  */
 /* normal blue #4D5AE5  */
 /* accent blue #404BBF  */
 /* вторичный бекграунд #F4F4FD  */
@@ -21,7 +20,7 @@
 
 body {
   font-family: 'Roboto', sans-serif;
-  background-color: var(--primery-bg-color);
+  background-color: var(--white-bg-color);
   color: var(--primery-text-color);
   font-size: 16px;
   line-height: 1.5;
@@ -66,7 +65,6 @@ img {
 }
 /* HEADER  */
 .page-header {
-  background-color: var(--header-bg-color);
   border-bottom: 1px solid #e7e9fc;
 }
 .page-header-container {
@@ -145,7 +143,7 @@ img {
 }
 /* /* HERO ? */
 .hero {
-  background-color: var(--title-text-color);
+  background-color: var(--navy-blue-bg-color);
   text-align: center;
   padding-top: 188px;
   padding-bottom: 188px;
@@ -236,7 +234,7 @@ img {
 
 /* Footer  */
 .footer {
-  background-color: var(--title-text-color);
+  background-color: var(--navy-blue-bg-color);
   padding: 100px 0;
 }
 .footer .logotype {
@@ -297,7 +295,7 @@ img {
 .button {
   display: block;
   color: var(--title-text-color);
-  background-color: var(--primery-bg-color);
+  background-color: var(--white-bg-color);
   font-family: 'Roboto', sans-serif;
   font-weight: 500;
   font-size: 16px;
